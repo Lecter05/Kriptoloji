@@ -38,11 +38,11 @@ def sifrele_desire(metin, anahtar):
 
     # matris ile uygun bir formatta çarpılabilmesi için sonuna eklemeler yapılır(random).
     if len(kucult) % 3 == 1:
-        for harfler in smc(np.random.randint(1, 10, size=2)):
+        for harfler in smc(np.random.randint(1, 71, size=2)):
             kucult += harfler
             print(metin)
     elif len(kucult) % 3 == 2:
-        for harfler in smc(np.random.randint(1, 10, size=1)):
+        for harfler in smc(np.random.randint(1, 71, size=1)):
             kucult += harfler
             print(metin)
 
